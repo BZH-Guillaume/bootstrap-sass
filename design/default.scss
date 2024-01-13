@@ -1,0 +1,39 @@
+$theme_colors: (
+    "primary": #344D59,
+    "secondary": #7A90A4,
+    "success": #B8CBD0,
+    "info": #709CA7,
+    "warning": #137C8B,
+    "danger": #dc3591,
+    "light": #f8f9fa,
+    "dark": #343a40,
+    "rose": #ff3399
+);
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 4),
+    7: ($spacer * 5),
+    8: ($spacer * 6),
+    9: ($spacer * 7),
+    10: ($spacer * 8),
+    11: ($spacer * 9),
+    12: ($spacer * 10),
+);
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    3xl: 1600px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
